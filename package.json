@@ -1,0 +1,19 @@
+{
+  "name": "jmss-student-platform",
+  "version": "1.0.0",
+  "description": "The Social Network for John Monash Science School (Vic)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMSS-Student-Platform/JMSS-Student-Platform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMSS-Student-Platform/JMSS-Student-Platform/issues"
+  },
+  "homepage": "https://github.com/JMSS-Student-Platform/JMSS-Student-Platform#readme"
+}

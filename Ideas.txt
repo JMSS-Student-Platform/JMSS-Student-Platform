@@ -1,0 +1,2 @@
+@media (orientation: landscape/portrait){}
+Use to set up a desktop and mobile version.
