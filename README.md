@@ -4,5 +4,5 @@
 This is the JMSS-Student-Platform!
 It's basically School-only social media
 
-## Devs: /
+## Devs:
 Alphons (Help Me Pls, from Perth), Rotary Viper (I met him on Discord with Fireman Sam)
