@@ -36,7 +36,7 @@
 
 <!--Bottom Bar-->
 <div class=bottomBar>
-    <a class=home>
+    <a href=/ class=home>
         <img
         width=50
         src=home.svg
@@ -55,7 +55,7 @@
         class=addSVG
         >
     </a>
-    <a class=help>
+    <a href=/faq class=help>
         ?
     </a>
 </div>
