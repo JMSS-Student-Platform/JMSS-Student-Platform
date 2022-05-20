@@ -56,7 +56,13 @@
         >
     </a>
     <a href=/faq class=help>
-        ?
+        <img
+        src="question mark.png"
+        alt="FAQ Button"
+        decoding=async
+        loading=lazy
+        class=addSVG
+        >
     </a>
 </div>
 
