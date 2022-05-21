@@ -1,3 +1,9 @@
+<script lang="ts">
+
+import post from '/src/post'
+
+</script>
+
 <!--Top Bar-->
 <div class="topLeftDiv topBar">
     <a href=https://sites.google.com/a/jmss.vic.edu.au/portal/students class="icon">
@@ -12,7 +18,7 @@
     </a>
 </div>
 <div class="topRightDiv topBar">
-    <a class="icon">
+    <a class="icon" on:click="{post()}">
         <img
         width=100%
         src=send.svg
