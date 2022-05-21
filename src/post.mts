@@ -8,8 +8,8 @@ const redis = createClient(`redis://${username}:${password}@localhost:6379`)
 await redis.connect()
 const client = await new Client().use(redis)
 
-export default function post() {
+export default async function post() {
 
-    redis.set('foo', 'bar')
+    await redis.set('foo', 'bar')
 
 }
