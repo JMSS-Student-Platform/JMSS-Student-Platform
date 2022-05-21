@@ -11,28 +11,6 @@
         >
     </a>
 </div>
-<div class="topRightDiv topBar">
-    <a class="icon">
-        <img
-        width=100%
-        src=send.svg
-        alt="Send Button"
-        decoding=async
-        loading=lazy
-        class="send"
-        >
-    </a>
-    <a class="icon">
-        <img
-        width=100%
-        src=settings.svg
-        alt="Settings Button"
-        decoding=async
-        loading=lazy
-        class="settings"
-        >
-    </a>
-</div>
 
 <!--Bottom Bar-->
 <div class=bottomBar>
@@ -45,7 +23,7 @@
         loading=lazy
         >
     </a>
-    <a class=add>
+    <a class=add href="/post">
         <img
         width=50
         src=add.svg

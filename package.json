@@ -34,7 +34,9 @@
   },
   "type": "module",
   "dependencies": {
+    "@rollup/plugin-replace": "^4.0.0",
     "@tauri-apps/api": "^1.0.0-rc.5",
+    "dotenv": "^16.0.1",
     "redis-om": "^0.3.3"
   }
 }
