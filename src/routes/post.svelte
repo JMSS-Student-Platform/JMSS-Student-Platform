@@ -1,6 +1,6 @@
 <script lang="ts">
 
-import post from '/src/post'
+import post from '/items/[id]'
 
 </script>
 
