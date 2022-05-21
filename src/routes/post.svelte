@@ -1,7 +1,3 @@
-<script lang="ts">
-console.log(import.meta.env.VITE_REDIS_KEY)
-
-</script>
 <!--Top Bar-->
 <div class="topLeftDiv topBar">
     <a href=https://sites.google.com/a/jmss.vic.edu.au/portal/students class="icon">
