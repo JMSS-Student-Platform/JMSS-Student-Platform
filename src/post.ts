@@ -5,11 +5,11 @@ const username = import.meta.env.VITE_REDIS_USERNAME
 const password = import.meta.env.VITE_REDIS_PASSWORD
 
 const redis = createClient(`redis://${username}:${password}@localhost:6379`)
-redis.connect()
-const client = new Client().use(redis)
+await redis.connect()
+const client = await new Client().use(redis)
 
-export default function post() {
+export default async function post() {
 
-    redis.set('foo', 'bar')
+    await redis.set('foo', 'bar')
 
 }
