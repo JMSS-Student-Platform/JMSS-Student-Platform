@@ -11,6 +11,12 @@ const config = {
 		adapter: adapter()
 	},
 
+	vite: {
+		build: {
+			target: "esnext"
+		}
+	}
+
 };
 
 export default config;
