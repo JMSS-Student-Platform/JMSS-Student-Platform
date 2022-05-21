@@ -13,7 +13,7 @@ const config = {
 
 	vite: {
 		build: {
-			target: "esnext"
+			target: "es2020"
 		}
 	}
 
