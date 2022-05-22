@@ -3,7 +3,7 @@ html{
 }
 
 hr{
-    transform: scaleX(calc(2*64))
+    transform: scaleX(calc(1*1))
 }
 
 .icon{
@@ -91,8 +91,8 @@ hr{
 }
 
 .post{
-    width: 80rem;
-    height: 80rem;
+    width: 70rem;
+    height: 70rem;
 
     transform: translateY(4rem);
 }
@@ -110,4 +110,10 @@ hr{
 
 .post > img{
     margin-top: 1rem;
+}
+
+.faq-title{
+
+    font-family: Helvetica;
+
 }
