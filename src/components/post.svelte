@@ -1,9 +1,3 @@
-<script lang="ts">
-
-import post from '/items/[id]'
-
-</script>
-
 <!--Top Bar-->
 <div class="topLeftDiv topBar">
     <a href=https://sites.google.com/a/jmss.vic.edu.au/portal/students class="icon">
@@ -18,7 +12,7 @@ import post from '/items/[id]'
     </a>
 </div>
 <div class="topRightDiv topBar">
-    <a class="icon" on:click="{post()}">
+    <a class="icon">
         <img
         width=100%
         src=send.svg
